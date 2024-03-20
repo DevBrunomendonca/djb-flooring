@@ -6,7 +6,7 @@ export const ContainerHeader = styled.header`
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
   //justify-content: center;
 `
 export const Navigation = styled.nav`
@@ -15,6 +15,6 @@ export const Navigation = styled.nav`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 2rem;
 `
