@@ -8,6 +8,9 @@ export const ContentBtn = styled.button`
   align-items: center;
   gap: 1rem;
   color: var(--third-color);
+  font-weight: 400;
+  font-size: 1.6rem;
+  cursor: pointer;
   img {
     width: 20px;
   }
