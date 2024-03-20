@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
 export const ContentParagraph = styled.p`
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   line-height: 120%;
-  color: var(--secondary-color);
+  color: var(--third-color);
   font-weight: 300;
 `

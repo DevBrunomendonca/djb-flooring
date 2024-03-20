@@ -6,6 +6,8 @@ export const ContainerHome = styled.section`
   min-height: 95vh;
   background-size: cover;
 
+  display: flex;
+  align-items: center;
 
 
 `
@@ -14,17 +16,18 @@ export const ContentHome = styled.div`
   margin: 0 auto;
   max-width: 1280px;
   width: 100%;
-  padding: 14rem 1rem 0;
+  padding: 0 1rem;
+  margin-top: -6rem;
 
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: center;
   gap: 1.5rem;
 
   p{
     max-width: 650px;
     font-size: 2rem;
+    color: var(--secondary-color);
   }
 
   button{
