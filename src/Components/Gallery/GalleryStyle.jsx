@@ -27,6 +27,7 @@ export const ContentGallery = styled.div`
   img{
     width: 100%;
     cursor: pointer;
+
   }
   @media (max-width:480px) {
     grid-template-columns: repeat(2, 1fr);
