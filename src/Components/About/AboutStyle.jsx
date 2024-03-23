@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const ContainerAbout = styled.section`
   background-color: var(--secondary-color);
-  min-height: 900pxs;
+  margin-top: -1rem;
 `
 
 export const ContentAbout = styled.div`
