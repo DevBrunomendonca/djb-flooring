@@ -79,7 +79,7 @@ const Comments = () => {
               <SwiperSlide key={item.id}>
                 <ContentCardComments>
                   <div>
-                    <img src="/image-profile.png" alt="icon profile" />
+                    <img src="/icon-profile.png" alt="icon profile" />
                     <ThirdTitle textThirdTitle={item.namePerson} />
                   </div>
                   <Paragraph textParagraph={item.comment} />
