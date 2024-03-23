@@ -9,6 +9,10 @@ export const ContainerServices = styled.section`
   flex-direction: column;
   gap: 1.5rem;
   align-items: center;
+
+  @media (max-width:768px) {
+    padding: 2rem 1rem;
+  }
 `
 
 export const ContainerTextServices = styled.div`
@@ -22,6 +26,9 @@ export const ContainerTextServices = styled.div`
     max-width: 900px;
     margin: 0 auto;
   }
+  @media (max-width:768px) {
+    gap: .75rem;
+  }
 `
 
 export const ContainerCardsServices = styled.div`
@@ -30,4 +37,11 @@ export const ContainerCardsServices = styled.div`
   gap: 2rem;
   
   padding-top: 2rem ;
+
+  @media (max-width: 1024px){
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 480px){
+    grid-template-columns: 1fr;
+  }
 `

@@ -9,15 +9,36 @@ import {
 
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useEffect, useState } from "react";
 
-const data = [
-  { id: "1", imageUrl: "/banner-more-about.png" },
-  { id: "2", imageUrl: "/banner-more-about2.png" },
-  { id: "3", imageUrl: "/banner-more-about3.png" },
-  { id: "4", imageUrl: "/banner-more-about4.png" },
-];
+
 
 const MoreAbout = () => {
+  
+  const [sliderPreview, setSliderPerview] = useState(2)
+  
+  useEffect(() => {
+    function handleSize(){
+      window.innerWidth < 768
+      ? setSliderPerview(1)
+      : setSliderPerview(2)
+    }
+    handleSize()
+    window.addEventListener('resize', handleSize)
+
+    return() => {
+      window.removeEventListener('resize', handleSize)
+    }
+  },[])
+
+
+  const data = [
+    { id: "1", imageUrl: "/banner-more-about.png" },
+    { id: "2", imageUrl: "/banner-more-about2.png" },
+    { id: "3", imageUrl: "/banner-more-about3.png" },
+    { id: "4", imageUrl: "/banner-more-about4.png" },
+  ];
+
   return (
     <ContainerMoreAbout>
       <ContentTextMoreAbout>
@@ -29,7 +50,7 @@ const MoreAbout = () => {
       <ContentBannerMoreAbout>
         <Swiper
           loop={true}
-          slidesPerView={2}
+          slidesPerView={sliderPreview}
           spaceBetween={30}
           centeredSlides={false}
           autoplay={{

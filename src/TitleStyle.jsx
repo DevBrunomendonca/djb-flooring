@@ -6,4 +6,8 @@ export const ContentTitle = styled.h1 `
   font-size: 6rem;
   max-width: 800px;
   text-align: start;
+
+  @media (max-width: 480px) {
+    font-size: 4.5rem;
+  }
 `

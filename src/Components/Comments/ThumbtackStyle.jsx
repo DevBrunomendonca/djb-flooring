@@ -7,14 +7,19 @@ export const ContainerThumtack = styled.div`
   display: flex;
   align-items: center;
 
-  //width: 100%;
+  width: 50%;
+
+  @media (max-width:768px) {
+    width: 100%;
+    max-width: none;
+    padding: 1rem;
+  }
   
   button{
     margin-top: 2rem;
-    
   }
 
   img{
-    height: 610px;
+    width: 60%;
   }
 `

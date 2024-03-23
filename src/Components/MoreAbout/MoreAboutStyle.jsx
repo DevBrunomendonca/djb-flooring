@@ -9,6 +9,10 @@ export const ContainerMoreAbout = styled.section`
   align-items: center;
   gap: 4rem;
 
+  @media (max-width: 768px){
+    padding: 2rem 1rem;
+  }
+
 `
 
 export const ContentTextMoreAbout = styled.div`
@@ -19,6 +23,9 @@ export const ContentTextMoreAbout = styled.div`
 
   h2{
     padding-bottom: 1rem;
+    @media (max-width: 768px){
+      padding-bottom: 0;
+    }
   }
 
   p{
@@ -26,6 +33,9 @@ export const ContentTextMoreAbout = styled.div`
     padding-top: 1.5rem;
     max-width: 900px;
     margin: 0 auto;
+    @media (max-width:768px) {
+      padding-top: .75rem;
+  }
   }
 `
 
@@ -33,6 +43,7 @@ export const ContentBannerMoreAbout = styled.div`
   margin: 0 auto;
   max-width: 1280px;
   padding: 0 1rem;
+  width: 100%;
 `
 
 export const CardImg = styled.div`

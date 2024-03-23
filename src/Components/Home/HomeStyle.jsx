@@ -9,7 +9,9 @@ export const ContainerHome = styled.section`
   display: flex;
   align-items: center;
 
-
+  @media (max-width: 480px) {
+    min-height: 90vh;
+  }
 `
 
 export const ContentHome = styled.div`

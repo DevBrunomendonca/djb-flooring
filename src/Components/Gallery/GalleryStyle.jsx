@@ -9,6 +9,10 @@ export const ContainerGallery = styled.section`
   align-items: center;
   gap: 1rem;
 
+  @media (max-width: 768px) {
+    padding: 2rem 1rem ;
+  }
+
 `
 export const ContentGallery = styled.div`
   margin: 0 auto;
@@ -23,5 +27,9 @@ export const ContentGallery = styled.div`
   img{
     width: 100%;
     cursor: pointer;
+  }
+  @media (max-width:480px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
 `

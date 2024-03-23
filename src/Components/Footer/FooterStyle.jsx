@@ -5,7 +5,9 @@ export const ContainerFooter = styled.footer`
   margin-top: 5rem;
   padding: 5rem 1rem 2rem;
   
-  
+  @media (max-width: 768px) {
+    padding: 3rem 1rem 2rem;
+  }
 `
 
 export const ContentFooter = styled.div`
@@ -15,6 +17,17 @@ export const ContentFooter = styled.div`
   align-items: start;
   justify-content: space-between;
   gap: 2rem;
+
+  @media(max-width:768px){
+    flex-direction: column;
+    align-items: center;
+    
+    div{
+      align-items: center;
+      text-align: center;
+      
+    }
+  }
 `
 
 
@@ -41,9 +54,9 @@ export const ContaineLinks = styled.div`
   div{
     display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   gap: .5rem;
-  }
+}
 `
 
 export const Copyright = styled.h4`
