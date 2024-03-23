@@ -21,7 +21,7 @@ const CardServices = () => {
       tl.current = gsap.timeline({
         scrollTrigger: {
           trigger: `#container-service`,
-          start: "280px bottom",
+          start: "320px bottom",
         }
       })
       .fromTo('#image-service1', {
@@ -29,7 +29,7 @@ const CardServices = () => {
           x: -100,
         }, {
           opacity: 1,
-          duration: 1,
+          duration: 1.4,
           x: 0
         })
       .fromTo('#card-service1', {
@@ -46,7 +46,7 @@ const CardServices = () => {
           x: -100,
         }, {
           opacity: 1,
-          duration: 1,
+          duration: 1.4,
           x: 0
         })
       .fromTo('#card-service2', {
@@ -63,7 +63,7 @@ const CardServices = () => {
           x: -100,
         }, {
           opacity: 1,
-          duration: 1,
+          duration: 1.4,
           x: 0
         })
       .fromTo('#card-service3', {
@@ -80,7 +80,7 @@ const CardServices = () => {
           x: -100,
         }, {
           opacity: 1,
-          duration: 1,
+          duration: 1.4,
           x: 0
         })
       .fromTo('#card-service4', {
@@ -97,7 +97,7 @@ const CardServices = () => {
           x: -100,
         }, {
           opacity: 1,
-          duration: 1,
+          duration: 1.4,
           x: 0
         })
       .fromTo('#card-service5', {
@@ -114,7 +114,7 @@ const CardServices = () => {
           x: -100,
         }, {
           opacity: 1,
-          duration: 1,
+          duration: 1.4,
           x: 0
         })
       .fromTo('#card-service6', {

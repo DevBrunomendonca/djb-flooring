@@ -23,7 +23,7 @@ const Gallery = () => {
       tl.current = gsap.timeline({
         scrollTrigger: {
           trigger: `#container-gallery`,
-          start: "280px bottom"
+          start: "380px bottom"
         }
       })
       .fromTo('#image-gallery', {
