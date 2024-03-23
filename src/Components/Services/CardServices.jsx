@@ -21,7 +21,7 @@ const CardServices = () => {
       tl.current = gsap.timeline({
         scrollTrigger: {
           trigger: `#container-service`,
-          start: "top bottom"
+          start: "280px bottom",
         }
       })
       .fromTo('#image-service1', {

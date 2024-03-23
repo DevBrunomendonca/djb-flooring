@@ -16,8 +16,8 @@ const About = () => {
     gsap.context(() => {
       tl.current = gsap.timeline({
         scrollTrigger: {
-          trigger: `#container-about`,
-          start: "top bottom"
+          trigger: '#container-about',
+          start: "300px bottom"
         }
       })
       .fromTo('#container-text', {

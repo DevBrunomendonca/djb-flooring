@@ -18,6 +18,9 @@ export const ContainerModalImage = styled.div`
     margin: 100px auto;
     height: 95%;
     transition: all .5s;
+    @media (max-width:800px){
+      height: auto;
+    }
   }
 `
 
