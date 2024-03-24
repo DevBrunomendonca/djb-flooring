@@ -14,8 +14,8 @@ export const ContentGoToTop = styled.img`
   @media (max-width:480px) {
     bottom: 30px;
     right: 10px;
-    width: 40px;
-  height: 40px;
+    width: 45px;
+  height: 45px;
   }
 
   ${({showGoToTop}) => showGoToTop && css`
