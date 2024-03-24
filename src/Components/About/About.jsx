@@ -51,7 +51,7 @@ const About = () => {
             textParagraph="Flooring is an essential element in any interior design. The right flooring
             choice securely anchors the space with personality and purpose. Whether installed in the home or a place of business, floor coverings should be both functional and beautiful."
           />
-          <ButtonSecondary textBtn="Our Services"/>
+          <ButtonSecondary hrefBtn='#container-our-service' textBtn="Our Services"/>
         </ContentTextAbout>
         <ContentBannerAbout id="container-banner">
           <img src="/image-about.png" alt="" />

@@ -6,7 +6,7 @@ import Input from "./Input"
 
 const Contact = () => {
   return(
-    <ContainerContact>
+    <ContainerContact id="container-contact">
       <ContainerBannerContact>
         <ContentBannerContact>
           <SubTitle textSubtitle='Get in Touch'/>

@@ -4,10 +4,10 @@ import { ContainerLinks } from "./NavLinksStyle"
 const NavLinks = ({onClick}) => {
   return (
     <ContainerLinks onClick={onClick}>
-      <Links href="#" name="Home"/>
-      <Links href="#" name="Services"/>
-      <Links href="#" name="More About Us"/>
-      <Links href="#" name="Contact Us"/>
+      <Links href="#container-home" name="Home"/>
+      <Links href="#container-our-service" name="Services"/>
+      <Links href="#container-more-about" name="More About Us"/>
+      <Links href="#container-contact" name="Contact Us"/>
     </ContainerLinks>
   )
 }

@@ -40,7 +40,7 @@ const MoreAbout = () => {
   ];
 
   return (
-    <ContainerMoreAbout>
+    <ContainerMoreAbout id="container-more-about">
       <ContentTextMoreAbout>
         <SubTitle textSubtitle="More About Us" />
         <Paragraph textParagraph="DJB Flooring LLC  is an Atlanta-Ga Flooring installation company that provides experienced design assistance, expert level product knowledge, and skilled labor for flooring installations. When you work with us, you can trust that we are comfortable at the helm of your flooring project and will safely navigate you through the sea of flooring options." />

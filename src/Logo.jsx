@@ -2,7 +2,7 @@ import { ContentLogo } from "./LogoStyle"
 
 const Logo = () => {
   return(
-    <a href="#"> <ContentLogo src="/logo.png" alt="logo-principal"/></a>
+    <a href="#container-header"> <ContentLogo src="/logo.png" alt="logo-principal"/></a>
   )
 }
 
