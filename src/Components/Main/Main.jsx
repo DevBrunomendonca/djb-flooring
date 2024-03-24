@@ -7,6 +7,7 @@ import Services from "../Services/Services";
 import Gallery from '../Gallery/Gallery' 
 import { ContainerMain } from "./MainStyle";
 import Comments from "../Comments/Comments";
+import GoToTop from "../../GoToTop";
 
 const Main = () => {
   return (
@@ -18,6 +19,7 @@ const Main = () => {
       <Contact />
       <Gallery />
       <Comments />
+      <GoToTop />
     </ContainerMain>
   );
 };
