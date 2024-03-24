@@ -30,7 +30,7 @@ const About = () => {
         })
       .fromTo('#container-banner', {
           opacity: 0,
-          y: 160,
+          y: 100,
         }, {
           opacity: 1,
           duration: 1.4,

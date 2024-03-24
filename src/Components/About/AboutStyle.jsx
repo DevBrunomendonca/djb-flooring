@@ -36,7 +36,7 @@ export const ContentTextAbout = styled.div`
   button{
     padding: 2rem 8rem;
     @media (max-width: 480px) {
-      padding: 1.2rem 8rem;
+      padding: 1.8rem 8rem;
     }
   }
 `

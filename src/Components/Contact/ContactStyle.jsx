@@ -69,7 +69,7 @@ export const ContainerFormContact = styled.form`
   button {
     padding: 2rem 6rem;
     @media (max-width: 480px) {
-      padding: 1.2rem 6rem;
+      padding: 1.8rem 6rem;
     }
   }
   @media (max-width:1024px) {

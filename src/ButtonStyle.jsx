@@ -15,6 +15,6 @@ export const ContentBtn = styled.button`
     width: 20px;
   }
   @media (max-width: 480px) {
-    padding: 1.2rem 3rem;
+    padding: 1.8rem 3rem;
   }
 `
