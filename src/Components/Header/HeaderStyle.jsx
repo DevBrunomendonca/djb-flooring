@@ -17,11 +17,9 @@ export const Navigation = styled.nav`
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-
   @media (max-width: 768px) {
-
-    div, button {
-      display: none;
-    }
-  }
+    div, button{
+        display: none;
+    } 
+}
 `

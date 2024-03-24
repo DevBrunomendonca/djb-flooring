@@ -1,8 +1,8 @@
 import { ContentBtn } from "./ButtonStyle"
 
-const Button = ({hrefButton, nameButton, imgBtn }) => {
+const Button = ({hrefButton, nameButton, onclick }) => {
   return(
-    <a href={hrefButton}><ContentBtn>{nameButton} <img src="/icon-telephone.png" alt="icone telefone" /> </ContentBtn></a>
+    <a onClick={onclick} href={hrefButton}><ContentBtn>{nameButton} <img src="/icon-telephone.png" alt="icone telefone" /> </ContentBtn></a>
   )
 }
 export default Button
