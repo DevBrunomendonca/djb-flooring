@@ -26,7 +26,7 @@ const Gallery = () => {
           start: "380px bottom"
         }
       })
-      .fromTo('#image-gallery', {
+      .fromTo('.img-gallery', {
           opacity: 0,
           scale: 0.4,
           y: 160,
@@ -52,7 +52,7 @@ const Gallery = () => {
         {dataImage.map((item, index) => (
           <div key={item.id}>
             <img  
-              id='image-gallery'
+              className={item.class}
               src={item.urlImage} 
               alt={item.altImage} 
               onClick={() => handleClick(item, index)}/>

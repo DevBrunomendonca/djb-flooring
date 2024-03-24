@@ -5,12 +5,12 @@ export default function useModalImage() {
   const [indexImage, setIndexImage] = useState(null)
 
   const dataImage = [
-    {id: '1', urlImage: '/image-gallery1.png', altImage: 'image of gallery 1'},
-    {id: '2', urlImage: '/image-gallery2.png', altImage: 'image of gallery 2'},
-    {id: '3', urlImage: '/image-gallery3.png', altImage: 'image of gallery 3'},
-    {id: '4', urlImage: '/image-gallery4.png', altImage: 'image of gallery 4'},
-    {id: '5', urlImage: '/image-gallery5.png', altImage: 'image of gallery 5'},
-    {id: '6', urlImage: '/image-gallery6.png', altImage: 'image of gallery 6'}
+    {class: 'img-gallery', id: '1', urlImage: '/image-gallery1.png', altImage: 'image of gallery 1'},
+    {class: 'img-gallery', id: '2', urlImage: '/image-gallery2.png', altImage: 'image of gallery 2'},
+    {class: 'img-gallery', id: '3', urlImage: '/image-gallery3.png', altImage: 'image of gallery 3'},
+    {class: 'img-gallery', id: '4', urlImage: '/image-gallery4.png', altImage: 'image of gallery 4'},
+    {class: 'img-gallery', id: '5', urlImage: '/image-gallery5.png', altImage: 'image of gallery 5'},
+    {class: 'img-gallery', id: '6', urlImage: '/image-gallery6.png', altImage: 'image of gallery 6'}
   ]
   
   const handleClick = (item, index) => {

@@ -28,7 +28,7 @@ const Contact = () => {
           placeholder='Your Email'
         />
         <div>
-          <label htmlFor="message">Menssagem</label>
+          <label htmlFor="message">Message</label>
           <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" ></textarea>
         </div>
         <ButtonSecondary textBtn='Send Message'/>
