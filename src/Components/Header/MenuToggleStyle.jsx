@@ -10,7 +10,7 @@ animation: ease-in-out .4s;
     height: 120px;
   }to{
     opacity : 1;
-    height: 280px;
+    height: 285px;
   }
 }
 @keyframes showBtn {
@@ -27,7 +27,7 @@ animation: ease-in-out .4s;
 ${({openMenu}) => openMenu && css`
   background-color: var(--secondary-color);
   width: 100%;
-  height: 280px;
+  height: 285px;
   position: absolute;
   top: 30px;
   left: 0;
@@ -38,11 +38,11 @@ ${({openMenu}) => openMenu && css`
     animation: showBtn ease-in-out 1s;
   }
   flex-direction: column; 
-  padding: 7rem 1rem 2rem;
+  padding: 5rem 1rem 2rem;
   div {
     flex-direction: column;
     gap: 1.5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 3.5rem;
 
   }
   div>a{
