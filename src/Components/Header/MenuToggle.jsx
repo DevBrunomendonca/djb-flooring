@@ -8,7 +8,7 @@ const MenuToggle = ({openMenu, toggleMenuBar}) => {
   return(
     <ContainerMenuToggle openMenu={openMenu}>
       <NavLinks onClick={toggleMenuBar}/>
-      <Button onclick={toggleMenuBar} hrefButton="#" nameButton="Call us 404 955 0984 " />
+      <Button hrefButton="tel:+14049550984" onclick={toggleMenuBar}  nameButton="Call us 404 955 0984 " />
     </ContainerMenuToggle>
   )
 }
