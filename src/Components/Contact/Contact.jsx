@@ -14,7 +14,7 @@ const Contact = () => {
         </ContentBannerContact>
       </ContainerBannerContact>
 
-      <ContainerFormContact action="">
+      <ContainerFormContact action="https://formsubmit.co/Djbflooring@outlook.com" method="POST">
         <Input 
           nameLabel='Name'
           type='name'
