@@ -26,7 +26,57 @@ const Gallery = () => {
           start: "380px bottom"
         }
       })
-      .fromTo('.img-gallery', {
+      .fromTo('.img-gallery1', {
+          opacity: 0,
+          scale: 0.4,
+          y: 160,
+        }, {
+          opacity: 1,
+          scale: 1,
+          duration: 1.7,
+          y: 0
+        })
+      .fromTo('.img-gallery2', {
+          opacity: 0,
+          scale: 0.4,
+          y: 160,
+        }, {
+          opacity: 1,
+          scale: 1,
+          duration: 1.7,
+          y: 0
+        })
+      .fromTo('.img-gallery3', {
+          opacity: 0,
+          scale: 0.4,
+          y: 160,
+        }, {
+          opacity: 1,
+          scale: 1,
+          duration: 1.7,
+          y: 0
+        })
+      .fromTo('.img-gallery4', {
+          opacity: 0,
+          scale: 0.4,
+          y: 160,
+        }, {
+          opacity: 1,
+          scale: 1,
+          duration: 1.7,
+          y: 0
+        })
+      .fromTo('.img-gallery5', {
+          opacity: 0,
+          scale: 0.4,
+          y: 160,
+        }, {
+          opacity: 1,
+          scale: 1,
+          duration: 1.7,
+          y: 0
+        })
+      .fromTo('.img-gallery6', {
           opacity: 0,
           scale: 0.4,
           y: 160,
