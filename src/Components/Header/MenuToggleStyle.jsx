@@ -10,7 +10,7 @@ animation: ease-in-out .4s;
     height: 120px;
   }to{
     opacity : 1;
-    height: 285px;
+    height: 320px;
   }
 }
 @keyframes showBtn {
@@ -27,7 +27,7 @@ animation: ease-in-out .4s;
 ${({openMenu}) => openMenu && css`
   background-color: var(--secondary-color);
   width: 100%;
-  height: 285px;
+  height: 320px;
   position: absolute;
   top: 30px;
   left: 0;
