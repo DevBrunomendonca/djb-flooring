@@ -9,6 +9,10 @@ export const ContainerThumtack = styled.div`
 
   width: 50%;
 
+  div {
+    max-width: 200px;
+  }
+
   @media (max-width:768px) {
     width: 100%;
     max-width: none;

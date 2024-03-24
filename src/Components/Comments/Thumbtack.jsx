@@ -7,8 +7,8 @@ const Thumbtack = () => {
     <ContainerThumtack>
       <img src="/image-thumbtack.png" alt="imagem application Thumbtack" />
       <div>
-        <ThirdTitle textThirdTitle='Find us on the app Thumbtack'/>
-        <ButtonSecondary textBtn='Go to Thumbtack'/>
+        <ThirdTitle textThirdTitle='🥇 Top Pro on Thumbtack'/>
+        {/* <ButtonSecondary textBtn='Go to Thumbtack'/> */}
       </div>
     </ContainerThumtack>
   )
