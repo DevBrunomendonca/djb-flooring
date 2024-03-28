@@ -22,6 +22,12 @@ const Contact = () => {
           placeholder='Your Name'
         />
         <Input 
+          nameLabel='Phone'
+          type='telephone'
+          id='phone'
+          placeholder='Your Phone'
+        />
+        <Input 
           nameLabel='Email'
           type='email'
           id='email'
